@@ -17,7 +17,7 @@ class Box {
 	  float newR = r/3;
 	  if(sum > 1) {
 	    Box b = new Box(pos.x + x * newR, pos.y + y * newR, pos.z + z * newR, newR);
-	    boxex.add(b);
+	    boxes.add(b);
 	  }
 	}
       }
@@ -71,8 +71,3 @@ void draw() {
 
   a += 0.01;
 }
-
-
-
-
-
